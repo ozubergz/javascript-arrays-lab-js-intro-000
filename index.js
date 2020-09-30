@@ -21,4 +21,4 @@ function destructivelyRemoveFirstKitten() {
   return kittens
 }
 
-const 
+const appendKitten = (name) => [...kitten, name]
