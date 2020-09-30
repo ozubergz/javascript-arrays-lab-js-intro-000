@@ -21,5 +21,5 @@ function destructivelyRemoveFirstKitten() {
   return kittens
 }
 
-const appendKitten = (name) => [...kitten, name]
-const prependKitten = (name) => [name, ...kitten]
+const appendKitten = (name) => [...kittens, name]
+const prependKitten = (name) => [name, ...kittens]
