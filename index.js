@@ -23,4 +23,4 @@ function destructivelyRemoveFirstKitten() {
 
 const appendKitten = (name) => [...kittens, name]
 const prependKitten = (name) => [name, ...kittens]
-const 
+const removeLastKitten = () => kittens.slice(0, kittens.length - 2)
